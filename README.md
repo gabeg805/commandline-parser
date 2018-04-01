@@ -12,14 +12,11 @@ called. For examples of how to use it, click [here](#example).
 When declaring command line options, there are various different types of
 options that can be used. The options are differentiated by what type of
 arguments they may take:
-- **no_argument**
-    * Stuff
-- **optional_argument**
-    * Stuff
-- **list_argument**
-    * Stuff
-- **required_argument**
-    * Stuff
+- **no_argument**: This option does not take an argument.
+- **optional_argument**: This option may or may not take an argument.
+- **list_argument**: This argument takes one or more arguments. Arguments stop
+    being read once a new option is encountered.
+- **required_argument**: This option takes a single, required argument.
 
 ## Example
 
@@ -37,10 +34,10 @@ cli.parse(argv);
 ```
 
 This would:
-    -# Define the possible command line options for your program.
-    -# Add them to the command line interface object so that it knows the
+    1. Define the possible command line options for your program.
+    2. Add them to the command line interface object so that it knows the
        possible options.
-    -# Parse the user input through the *argv* variable from main(argc, argv).
+    3. Parse the user input through the *argv* variable from main(argc, argv).
 
 ## Install
 
