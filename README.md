@@ -34,10 +34,10 @@ cli.parse(argv);
 ```
 
 This would:
-    1. Define the possible command line options for your program.
-    2. Add them to the command line interface object so that it knows the
-       possible options.
-    3. Parse the user input through the *argv* variable from main(argc, argv).
+1. Define the possible command line options for your program.
+2. Add them to the command line interface object so that it knows the
+   possible options.
+3. Parse the user input through the *argv* variable from main(argc, argv).
 
 ## Install
 
