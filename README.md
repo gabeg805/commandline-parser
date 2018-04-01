@@ -33,7 +33,7 @@ commandline::interface cli(options);
 cli.parse(argv);
 ```
 
-This would:
+In order, this will do the following:
 1. Define the possible command line options for your program.
 2. Add them to the command line interface object so that it knows the
    possible options.
