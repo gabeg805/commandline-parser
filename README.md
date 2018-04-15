@@ -1,4 +1,4 @@
-# COMMAND LINE PARSER
+# Command Line Parser
 
 ## Introduction
 
